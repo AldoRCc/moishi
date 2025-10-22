@@ -22,8 +22,13 @@ input, button, textarea, select {
 }
 /*Reset end*/
 
+html{
+    font-size: 16px;
+    min-width: 320px;
+}
+
 body{
-    background-color: #360332;
+    background-color: #e1c4c8;
     justify-items: center;
     height: 100svh;
 }
@@ -40,21 +45,27 @@ body{
 .first .title{
     position: absolute;
     justify-items: center;
-    height: 20%;
+    height: 40%;
     font-size: 1.3rem;
-    color: white;
+    color: red;
+    margin-top: -5rem;
+    width: 85%;
 }
 
-.section img{
-    width: 100svw;
+.section, .section img {
     height: 100vh;
     height: 100svh;
+    width: 100svw;
     object-fit: cover;
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 8vw; /* escala con el ancho de pantalla */
     padding-bottom: 1rem;
+}
+
+h3{
+    font-size: 4vw;
 }
 
 i{
