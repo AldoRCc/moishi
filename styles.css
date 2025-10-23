@@ -45,11 +45,12 @@ body{
 .first .title{
     position: absolute;
     justify-items: center;
-    height: 40%;
+    height: 30%;
     font-size: 1.3rem;
     color: blue;
     margin-top: -5rem;
     width: 85%;
+    top: 30%;
 }
 
 .section, .section img {
@@ -74,6 +75,7 @@ i{
     border-radius: 100%;
     padding: 2rem;
     justify-items: end;
+    top: 50%;
 }
 
 i:hover{
