@@ -10,6 +10,7 @@
   
 html, body {
     height: 100%;
+    overflow: hidden;
 }
   
 img, picture, video, canvas, svg {
@@ -99,7 +100,38 @@ i:hover{
       transform: scale(1.5);
     }
   }
-  
+
+.second div{
+  display: flex;
+  position: absolute;
+  flex-flow: column;
+}
+
+.description{
+  top: 10%;
+  width: 90%;
+}
+
+.button-container{
+  top:40%;
+  height: 50%;
+  justify-content: space-around;
+}
+
+a{
+  display:flex;
+  width: 80vw;
+  height: 10vh;
+  border: 0.5rem solid #d131b6;
+  background-color: rgba(150, 144, 144, 0);
+  border-radius: 50px;
+  box-shadow: 5px 7px #d131b6;
+  font-size: 2rem;
+  color:#d131b6;
+  justify-content: center;
+  align-items: center;
+}
+
   /* Tablets y celulares grandes (de 481px a 1024px) */
   @media (min-width: 481px) and (max-width: 1024px) {
     .first .title {
