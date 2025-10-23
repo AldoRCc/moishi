@@ -47,20 +47,19 @@ body{
     justify-items: center;
     height: 40%;
     font-size: 1.3rem;
-    color: red;
+    color: blue;
     margin-top: -5rem;
     width: 85%;
 }
 
 .section, .section img {
-    height: 100vh;
     height: 100svh;
     width: 100svw;
     object-fit: cover;
 }
 
 h1{
-    font-size: 8vw; /* escala con el ancho de pantalla */
+    font-size: 8vw;
     padding-bottom: 1rem;
 }
 
@@ -69,11 +68,11 @@ h3{
 }
 
 i{
+    position: absolute;
     margin: 2rem auto 0 auto;
-    top: 30px;
     background-color: rgba(150, 144, 144, 0.5);
     border-radius: 100%;
-    padding: 30px;
+    padding: 2rem;
     justify-items: end;
 }
 
