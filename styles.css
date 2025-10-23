@@ -47,7 +47,7 @@ body{
     justify-items: center;
     height: auto;
     font-size: 1.3rem;
-    color: blue;
+    color: white;
     margin-top: -5rem;
     width: 90%;
     top: 40%;
@@ -66,6 +66,7 @@ h1{
 
 h3{
     font-size: 6vw;
+    text-align: center;
 }
 
 i{
@@ -83,18 +84,39 @@ i:hover{
 
 /*Responsive media querie*/
 
-/* Celulares medianos */
-@media (max-width: 768px) {
-
+  /* Celulares pequeños (de 320px a 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+    h3 {
+      font-size: 2rem;
+    }
+  
+    .flecha {
+      padding: 20px;
+      transform: scale(1.5);
+    }
   }
   
-  /* Celulares pequeños */
-  @media (max-width: 480px) {
-    /* Ajustes para los más compactos */
-  }
+  /* Tablets y celulares grandes (de 481px a 1024px) */
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .first .title {
+      top: 30%;
+    }
   
-  /* Tablets */
-  @media (max-width: 1024px) {
-    /* Si necesitas reacomodar columnas o tamaños */
+    h1 {
+      font-size: 5rem;
+    }
+  
+    h3 {
+      font-size: 3rem;
+    }
+  
+    .flecha {
+      padding: 3%;
+      transform: scale(2);
+    }
   }
   
